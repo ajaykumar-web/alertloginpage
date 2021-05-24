@@ -1,0 +1,57 @@
+.login-page-home {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(../images/conference-room.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.login-page {
+    width: 30vw;
+    padding: 0.5rem;
+    color: #07417d;
+    background: rgba(rgba(255, 255, 255, 0.767), 0.3);
+    border-radius: 3rem 0 3rem 0;
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 10px #07417d;
+    margin: 0 50px;
+}
+
+.login-form form {
+    width: 25vw;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.login-form p {
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.login-form input {
+    height: 30px;
+    border-radius: 50px;
+    margin: 8px 0;
+}
+
+.login-form label {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.login-form button {
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    border: unset;
+    background-color: #07417d;
+    color: #fff;
+}
